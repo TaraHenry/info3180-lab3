@@ -1,3 +1,48 @@
 body {
     padding-top: 5rem;
 }
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+.label-container {
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.required{
+    color: red;
+}
+
+
+input, textarea {
+    width: 100%;
+    max-width: 600px;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+textarea{
+    height: 150px;
+}
+
+div p{
+    font-size: 14px;
+}
+
+label{
+    font-weight: bold;
+}
+
+button{
+    border-radius: 5px;
+    border: solid;
+    color: white;
+    padding: 5px;
+    width: 100px;
+
+}
